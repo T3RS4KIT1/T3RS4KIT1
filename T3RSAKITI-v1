@@ -1,0 +1,69 @@
+#!/usr/bin/sh
+#lebih baik belajar dari pada copy hasil orang 
+#bersihkan layar
+clear
+
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m
+
+
+sleep 2
+echo ""
+echo -e $green"[#]> Thank you like tools me :) ... "
+sleep 3
+echo ""
+echo -e $green"[#]> By T3RS4KIT1..."
+read enter
+exit
+}
+
+echo -e -n $green;figlet "TOOLS v1"
+echo -e $white"  1. install tampilan"
+echo -e $white"  2. Maxphizer"
+echo -e $white"  3. ddos"
+echo -e yellow"  4.exit"
+read -p "pilih=" pil;
+clear 
+figlet LOADING...|lolcat
+
+
+1)apt update&& apt upgrade 
+apt install python
+apt install python2
+apt  install git
+git clone https://github.com/Dra-ID/T4MPILAN-style
+cd T4MPILAN-style
+git pull
+sh install.sh
+
+;;
+
+2)apt update 
+apt upgrade
+apt install git
+apt install python
+git clone https://github.com/KasRoudra/MaxPhiser
+cd MaxPhiser
+ls 
+python MaxPhiser.py
+
+;;
+
+3)apt update
+apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/faizzzzzzz/ddos
+cd ddos
+python2 ddos.py
+
+;;
+
+4)exit
+fi
