@@ -1,0 +1,58 @@
+#!/usr/bin/bash
+#wkwkwk dia punya yang baru breee
+#tetaplah jadi badut yang selalu menghiburnya:)
+clear
+
+#variables
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+okeblue='\e[1;33m'
+
+menu() {
+  echo -e $green"            ▄▄▄ ✖✖✖✖✖✖✖✖✖✖✖✖✖✖"
+  echo -e $green"          ▄▄▄▄▄▄▄"                    echo -e $green"       ▄▄▄▄▄▄▄▄▄"   
+  echo -e $green"      ▄▄▄▄▄▄▄▄▄▄▄▄▄"
+  echo -e $green"   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄" 
+  echo -e $green" ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄"
+  echo -e $green"  ▄▄▄▄▄▄▄▄▄▄▄ $redAUTHOR BY.T3S4KIT1" echo -e $green"  ▄▄▄▄▄▄▄▄▄▄▄ $redCITY:$yellowNEW" YORK"
+  echo -e $green"  ▄▄▄▄▄▄▄▄▄▄▄ $redTEAM:$yellowCLAY "" echo -e $green"  ▄▄▄▄▄▄▄▄▄▄▄✖✖✖✖✖✖✖✖✖✖✖✖✖✖"
+  echo -e $yellow SILAHKAN PILIH"
+  echo -e $okeblue 1.IPGlocation"
+  echo -e $okeblue 2.kali-nethunter"
+  echo -e $okeblue 3.donwload-bluetooth-hack
+  echo -e $yellow  4.exit
+  read -p "pilih="pil;
+  clear 
+  sleep 3
+  figlet LOADING...|lolcat
+  
+  ;;
+  
+  1)apt-get update && apt-get upgrade
+apt-get install git
+apt install python
+git clone https://github.com/maldevel/IPGeolocation.git
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+echo -e ,$yellow" [+] $green"succes.installing....."
+
+;;
+
+2)apt update && apt upgrade
+apt install git
+git clone https://github.com/Hax4us/Nethunter-In-Termux.git
+cd ~/Nethunter-In-Termux
+chmod 777 kalinethunter
+sh kalinethunter
+echo -e $yellow" [#] $green"succes.installing....."
+
+;;
+
+3)xdg-open
+"http://www.thomas.hoornstra.org/hack/"
